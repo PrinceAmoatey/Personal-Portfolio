@@ -74,18 +74,31 @@ h2 {
 
 
 
-.home-left,
-.home-right {
+.home {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+
+}
+.home-left{
     width: 48%;
     padding: 2rem;
+    display: flex;
+    align-items: center;
+
 }
 
 .home-right {
-    padding: 0;
+    width: 48%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-left h6,
 h4 {
+    font-family: 'Roboto', sans-serif;
     color: hsl(240deg 8% 43%);
     margin: 1rem 0;
     margin-left: 3px;
@@ -94,10 +107,13 @@ h4 {
 
 .home-left h1 {
     font-size: 2.5rem;
+    color: #1f1f38;
 }
 
 .home-right {
+    padding: 0%;
     position: relative;
+    
 }
 
 .home-right img {
@@ -110,13 +126,71 @@ h4 {
     height: 100%;
 }
 
+
+
+
 .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 17rem;
     height: 17rem;
     border-radius: 50%;
     padding: .5rem;
     position: relative;
 }
+
+
+
+/* About Section */
+
+.about-me {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2rem;
+    color: #1f1f38;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-left,
+.about-right {
+    width: 48%;
+}
+
+.about-right {
+    padding-right: 4rem;
+    display: flex;
+}
+
+.about-left {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about-left img {
+    width: 90%;
+    border-radius: 1rem;
+}
+
+.about-content h1 {
+    color: #1f1f38;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-content p {
+    margin-bottom: 2rem;
+    color: #1f1f38;
+    font-family: 'Poppins', sans-serif;
+}
+
 
 
 
@@ -209,4 +283,33 @@ h4 {
 
 .m-auto {
     margin: auto;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 0 .5rem;
+    font-size: 1rem;
+    color: #4db5ff;
+    cursor: pointer;
+    padding: 0.75rem 1.2rem;
+    border: 1px solid #4db5ff;
+    border-radius: 0.4rem;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buttons a,
+#hireme {
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: #1f1f38;
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.live {
+    color: #1f1f38;
+    background-color: #4db5ff;
 }
