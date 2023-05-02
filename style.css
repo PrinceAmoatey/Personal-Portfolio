@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@500&family=Ubuntu:wght@300;500;700&display=swap');
+
+body {
+    background-color: hsl(240, 36%, 95%);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    line-height: 4rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-bottom: .5px solid #ffffff52;
+    border-width: 80%;
+    margin-bottom: 1rem;
+}
+
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+#navbar ul li {
+    margin: 0px 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 0.5rem 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f1f38;
+}
+
+h2 {
+    color: #fff;
+}
+.right {
+    display: none;
+}
+
+.checkBtn {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.nav-col a:hover {
+    border-radius: .4rem;
+    color: #1f1f38;
+    background-color: #fff;
+}
+
+
+
+
+.home-left,
+.home-right {
+    width: 48%;
+    padding: 2rem;
+}
+
+.home-right {
+    padding: 0;
+}
+
+.home-left h6,
+h4 {
+    color: hsl(240deg 8% 43%);
+    margin: 1rem 0;
+    margin-left: 3px;
+    font-size: 1.2rem;
+}
+
+.home-left h1 {
+    font-size: 2.5rem;
+}
+
+.home-right {
+    position: relative;
+}
+
+.home-right img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    border-radius: 62%;
+    height: 100%;
+}
+
+.circle {
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+    padding: .5rem;
+    position: relative;
+}
+
+
+
+
+
+
+/* Utility classes*/
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.s-between {
+    justify-content: space-between;
+}
+
+.s-around {
+    justify-content: space-around;
+}
+
+.s-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.f-col {
+    flex-direction: column;
+}
+
+
+.p-relative {
+    position: relative;
+}
+
+.t-white {
+    color: #fff;
+}
+
+.bg-color {
+    background-color: #1f1f38;
+}
+
+.t-center {
+    text-align: center;
+}
+
+
+.my-2 {
+    margin: 2rem 0;
+}
+
+.f-2 {
+    font-size: 2rem;
+}
+
+.m-b-1 {
+    margin-bottom: 1rem;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.h-50 {
+    height: 50vh;
+}
+
+.mx-1 {
+    margin: 0 1rem;
+}
+
+.m-top {
+    margin-top: 1rem;
+}
+
+.m-auto {
+    margin: auto;
+}
